@@ -42,11 +42,60 @@ ul {
       color: #FFF5DD;
       text-decoration: none; }
 
+.gallery {
+  max-height: 400px;
+  max-widht: 400px; }
+
+.imageBox {
+  height: 30em;
+  margin: 0 0 2% 8%;
+  -webkit-animation: gallery 72s 1s infinite;
+  -moz-animation: gallery 72s 1s infinite;
+  -o-animation: gallery 72s 1s infinite;
+  animation: gallery 72s 1s infinite; }
+
 .about {
   background: #611427; }
 
 .portfolio {
-  background: #6A6A61; }
+  background: #6A6A61;
+  height: 100%; }
 
 .connect {
   background: #958976; }
+  .connect i {
+    margin: 1% 0 0 12%; }
+
+@-webkit-keyframes gallery {
+  0% {
+    background-image: url('images/billiebeach.jpg'); }
+
+  10% {
+    background-image: url('images/daring.jpg'); }
+
+  20% {
+    background-image: url('images/emberdoor.jpg'); }
+
+  30% {
+    background-image: url('images/billiebeach.jpg'); }
+
+  40% {
+    background-image: url('images/emberdoor.jpg'); }
+
+  50% {
+    background-image: url('images/daring.jpg'); }
+
+  60% {
+    background-image: url('images/billiebeach.jpg'); }
+
+  70% {
+    background-image: url('images/emberdoor.jpg'); }
+
+  80% {
+    background-image: url('images/daring.jpg'); }
+
+  90% {
+    background-image: url('images/billiebeach.jpg'); }
+
+  100% {
+    background-image: url('images/emberdoor.jpg'); } }
