@@ -1,0 +1,63 @@
+$teal: #142E32;
+$beige: #958976;
+$grey: #6A6A61;
+$red:  #611427;
+$white: #FFF5DD;
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $teal;
+  color: $teal;
+}
+h1 {
+  color: $white;
+  font-family: arial;
+  display: inline-block;
+  float: left;
+  margin: 0 3% 0 3%;
+  font-size: 7em;
+  vertical-align: middle;
+}
+h6 {
+  color: $grey;
+  text-align: center;
+}
+header {
+  position: fixed;
+  z-index: 1;
+  padding-top: 2%;
+  p{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background: $red;
+  margin: 0 0 0 30px;
+}}
+
+
+ul {
+  list-style-type: none;
+    li{
+      display: block;
+      border-radius: 10px;
+      font-weight: bold;
+      text-shadow: 2px 2px $teal;
+      a{
+        font-size: 1em;
+        float: right;
+        color: $white;
+        text-decoration: none;
+    }}
+}
+
+.about {
+  background: $red;
+}
+.portfolio{
+  background: $grey;
+}
+.connect {
+  background: $beige;
+}
